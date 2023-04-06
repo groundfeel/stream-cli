@@ -39,7 +39,7 @@
 		"generate": "yarn run build && yarn run manifest && yarn run readme"
 	},
 	"dependencies": {
-		"@oclif/command": "^1",
+		"@oclif/command": "^1.8.22",
 		"@oclif/config": "^1",
 		"@oclif/plugin-autocomplete": "^0.2.0",
 		"@oclif/plugin-commands": "^1.2.3",
