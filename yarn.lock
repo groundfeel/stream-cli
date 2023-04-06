@@ -1107,10 +1107,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.4.tgz#a145cc0bb14ef9c4777361b7bbafa5cf8e3acb5a"
   integrity sha512-Wk7nG1JSaMfMpoMJDKUsWYugliB2Vy55pdjLpmLixeyMi7HizW2I/9QoxsPCkXl3dO+ZOVqPumKaDUv5zJu2uQ==
 
-"@types/seamless-immutable@7.1.10":
-  version "7.1.10"
-  resolved "https://registry.yarnpkg.com/@types/seamless-immutable/-/seamless-immutable-7.1.10.tgz#4c4313ad5069c881f38a19c7df20b7b694bf0f57"
-  integrity sha512-KG2oQ6M2HhVFcm1uknm8TsL2dQKZnGWZ12lGE+rhD3uXZmrFh5fpleGAwhXtbX+hWHXWFQcMLMpah7lHfgZzkg==
+"@types/seamless-immutable@7.1.12":
+  version "7.1.12"
+  resolved "https://registry.yarnpkg.com/@types/seamless-immutable/-/seamless-immutable-7.1.12.tgz#bab05104e4d4a1ec608d02da121dab0bb149a4e4"
+  integrity sha512-I+Zmx4haxUT6rK1hXmOkUkgmAVrbxZ9rlvm+dXX82ZaGogXLDlnh7ceK/XAkIO7wget+bfIaOu1IvLRPz/DHbA==
 
 "@types/sinon@*":
   version "9.0.5"
@@ -1924,13 +1924,6 @@ coveralls@^3.1.0:
     log-driver "^1.2.7"
     minimist "^1.2.5"
     request "^2.88.2"
-
-cross-fetch@^3.0.0:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.0.5.tgz#2739d2981892e7ab488a7ad03b92df2816e03f4c"
-  integrity sha512-FFLcLtraisj5eteosnX1gf01qYDCOc4fDy0+euOt8Kn9YBY2NtXL/pCoYPavw24NIQkQqm5ZOLsGD5Zzj0gyew==
-  dependencies:
-    node-fetch "2.6.0"
 
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -3979,11 +3972,6 @@ node-environment-flags@1.0.6:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
 
-node-fetch@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
-
 node-preload@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/node-preload/-/node-preload-0.2.1.tgz#c03043bb327f417a18fee7ab7ee57b408a144301"
@@ -4891,18 +4879,17 @@ stdout-stderr@^0.1.9:
     debug "^4.1.1"
     strip-ansi "^6.0.0"
 
-stream-chat@1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-1.10.2.tgz#aa44f9e6e8a15651bfcda5cc281ff2aadb19a445"
-  integrity sha512-+7y+2UTBd5bD/pP+XsB+lROLOzYT3aOzTVP8IalAqvBg9BCD1PsklUIeNNgnkEFugpwkfWG73Qk3WXjazoHXag==
+stream-chat@1.14.1:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-1.14.1.tgz#c2e7786e6865647902cf81a43adfa48ff8ae12ba"
+  integrity sha512-1WeTpNqXhDmuOo5QGixBXGASjZYoGbMZIFZ83MzfgsJh0rMoGIR5Hwx+P/qtAffwlSktXxf7+6GKidgSEYcQRw==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    "@types/seamless-immutable" "7.1.10"
+    "@types/seamless-immutable" "7.1.12"
     "@types/ws" "^6.0.3"
     axios "^0.18.1"
     base64-js "^1.3.1"
     chai-arrays "^2.0.0"
-    cross-fetch "^3.0.0"
     form-data "^2.3.3"
     isomorphic-ws "^4.0.1"
     jsonwebtoken "^8.3.0"
