@@ -58,7 +58,7 @@
 		"moment": "^2.26.0",
 		"node-emoji": "^1.10.0",
 		"rollbar": "^2.16.2",
-		"stream-chat": "1.10.2",
+		"stream-chat": "8.14.0",
 		"uuid": "^8.1.0"
 	},
 	"devDependencies": {
